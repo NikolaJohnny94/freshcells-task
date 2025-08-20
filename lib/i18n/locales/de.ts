@@ -1,0 +1,78 @@
+export const de = {
+  common: {
+    loading: 'Wird geladen...',
+    error: 'Fehler',
+    success: 'Erfolg',
+    cancel: 'Abbrechen',
+    save: 'Speichern',
+    delete: 'Löschen',
+    edit: 'Bearbeiten',
+    close: 'Schließen',
+    retry: 'Erneut versuchen',
+    reload: 'Seite neu laden',
+    welcome: 'Willkommen',
+    logout: 'Abmelden',
+    redirecting: 'Weiterleitung...',
+  },
+  auth: {
+    login: 'Anmelden',
+    logout: 'Abmelden',
+    email: 'E-Mail-Adresse',
+    password: 'Passwort',
+    welcomeBack: 'Willkommen zurück',
+    enterCredentials:
+      'Geben Sie Ihre Anmeldedaten ein, um auf Ihr Konto zuzugreifen',
+    loggingIn: 'Anmeldung läuft...',
+    loginSuccess: 'Erfolgreich angemeldet!',
+    loginError: 'Anmeldung fehlgeschlagen. Bitte versuchen Sie es erneut.',
+    logoutSuccess: 'Erfolgreich abgemeldet!',
+    sessionExpired: 'Sitzung abgelaufen. Bitte melden Sie sich erneut an.',
+    invalidCredentials: 'Ungültige Kennung oder ungültiges Passwort',
+    emailRequired: 'E-Mail ist erforderlich',
+    passwordRequired: 'Passwort ist erforderlich',
+    invalidEmail: 'Ungültige E-Mail-Adresse',
+    loggingOut: 'Abmelden...',
+  },
+  account: {
+    title: 'Kontodetails',
+    welcomeBack: 'Willkommen zurück, {name}!',
+    firstName: 'Vorname',
+    lastName: 'Nachname',
+    email: 'E-Mail-Adresse',
+    userId: 'Benutzer-ID',
+    notProvided: 'Nicht angegeben',
+    loadingDetails: 'Kontodetails werden geladen...',
+    errorLoading: 'Fehler beim Laden der Kontodetails',
+    profile: 'Mein Profil',
+  },
+  mock: {
+    testCredentials: 'Test-Anmeldedaten',
+    mockMode: 'Demo-Modus',
+    useCredentials:
+      'Verwenden Sie diese Anmeldedaten, um die Anmeldefunktion zu testen',
+    tryWrongCredentials:
+      '💡 Versuchen Sie, falsche Anmeldedaten zu verwenden, um die Fehlerbehandlung zu testen!',
+  },
+  errors: {
+    somethingWentWrong: 'Etwas ist schiefgelaufen',
+    unexpectedError:
+      'Ein unerwarteter Fehler ist aufgetreten. Bitte versuchen Sie es erneut.',
+    networkError:
+      'Netzwerkfehler: Verbindung zum Server konnte nicht hergestellt werden',
+    serverError: 'Interner Serverfehler',
+    userNotFound: 'Benutzer nicht gefunden',
+    operationNotSupported: 'Vorgang im Demo-Modus nicht unterstützt',
+  },
+  theme: {
+    light: 'Hell',
+    dark: 'Dunkel',
+    system: 'System',
+    toggleTheme: 'Theme wechseln',
+  },
+  navigation: {
+    home: 'Startseite',
+    account: 'Konto',
+    login: 'Anmelden',
+    brand: 'FreshCells Task',
+  },
+}
