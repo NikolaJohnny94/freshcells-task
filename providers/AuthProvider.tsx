@@ -51,6 +51,7 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
         setIsLoading(false)
         throw new Error(t('auth.loginError'))
       }
+      setIsLoggingOut(false)
       setUserId(decoded.id)
       setIsAuthenticated(true)
     } else {
